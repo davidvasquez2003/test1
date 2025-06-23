@@ -35,8 +35,8 @@ export default function App() {
 
     Notification.requestPermission().then((permission) => {
       if (permission === 'granted') {
-        new Notification('Hello from your PWA!', {
-          body: 'This is a test notification.',
+        new Notification('Hello from your test app!', {
+          body: 'This is a test I repeat its a test!!.',
         });
       } else {
         alert('Notification permission denied.');
