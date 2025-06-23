@@ -23,7 +23,7 @@ export default function App() {
         if ('Notification' in window) {
           Notification.requestPermission().then((permission) => {
             if (permission === 'granted') {
-              new Notification('Check-In Successful!', {
+              new Notification('Check In Successful!', {
                 body: `Latitude: ${newCoords.latitude}, Longitude: ${newCoords.longitude}`,
               });
             }

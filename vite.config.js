@@ -9,8 +9,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'robots.txt'],
       manifest: {
-        name: 'PWA Notification + Location Demo',
-        short_name: 'PWA Demo',
+        name: 'PWA Notification + Location',
+        short_name: 'PWA',
         start_url: '/',
         display: 'standalone',
         background_color: '#ffffff',
